@@ -12,7 +12,7 @@ import * as styles from './QuickView.module.css';
 import { toOptimizedImage } from '../../helpers/general';
 
 const QuickView = (props) => {
-  const { close, buttonTitle = 'Add to Bag' } = props;
+  const { close, buttonTitle = 'Add to Cart' } = props;
   const sampleProduct = generateMockProductData(1, 'sample')[0];
 
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
